@@ -1,0 +1,25 @@
+/* Light theme is the default; the ThemeProvider flips
+   <html data-theme="dark"> and these variables swap over. */
+:root {
+  --bg: #f5f6f8;
+  --surface: #ffffff;
+  --text: #1a1c20;
+  --text-muted: #6b7280;
+  --border: #e2e5ea;
+  --accent: #2563eb;
+  --accent-text: #ffffff;
+  --danger: #dc2626;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+:root[data-theme='dark'] {
+  --bg: #14161a;
+  --surface: #1e2126;
+  --text: #f0f2f5;
+  --text-muted: #9aa3af;
+  --border: #2f343c;
+  --accent: #4f8cff;
+  --accent-text: #0b0d10;
+  --danger: #f87171;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
