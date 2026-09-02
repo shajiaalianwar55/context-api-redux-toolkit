@@ -10,7 +10,7 @@ only thing on show.
 
 ---
 
-## Acceptance criteria → where the code lives
+## Where the code lives
 
 | # | Requirement | File |
 |---|---|---|
